@@ -1,0 +1,61 @@
+<style>
+            .center
+            {   
+                font-family: serif;
+                font-size: 20px;
+            }
+            
+            h4.demo
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h1.example
+            {  
+                background-color: darkgray;
+                font-family: serif;
+                text-align: center;
+            }
+            
+            .color
+            {
+                background-color: antiquewhite;
+            }
+            
+            .img
+            {   
+                height: 200px;
+                width: 300px;
+                align-content: center;
+                margin-left: 80px;
+                margin-bottom: 20px;
+            }
+
+            .navbar-brand
+            {
+                font-size: 30px;
+                font-family: sans-serif;
+                text-shadow: 1px 1px #000000;
+            }
+
+            .main
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+            }
+
+            .section 
+            {
+               width: 50%;
+               height: 100%;
+               margin-right: 10px;
+               margin-bottom: 5px;
+               margin-top: 40px;
+               margin-left: 50px;
+            }
+
+        
+        </style>

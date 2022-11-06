@@ -1,0 +1,77 @@
+<style>
+            .myform{
+                padding: 2px;
+                border: 1px grey dotted;
+                margin: 2px;
+                background: #ccc;
+            }
+            
+            .center
+            {   
+                font-family: serif;
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            
+            h4.demo
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h1.example
+            {  
+                background-color: darkgray;
+                font-family: serif;
+                text-align: center;
+            }
+            
+            .color
+            {
+                background-color: antiquewhite;
+            }
+            
+            .imageaboutpage
+            {
+                width: 60%;
+            }
+
+            .navbar-brand
+            {
+                font-size: 30px;
+                font-family: sans-serif;
+                text-shadow: 1px 1px #000000;
+            }
+            
+            .first
+            {   
+                
+                font-family: serif;
+                font-size: 20px;
+            }
+            
+            .second
+            {
+               text-align: left;
+               font-family: serif;
+               font-size: 20px;
+               margin-left: 20px;
+               font-weight: 400; 
+            }
+
+            #map 
+            {
+               height: 400px;
+               width: 80%;
+               margin-left: 100px;
+            }
+            
+            .form-control
+            {
+               width: 60%;
+            }
+            
+        </style>
+        
