@@ -1,5 +1,34 @@
 <style>
     
+            html
+            {
+                font-size: 100%;
+            }
+
+            @media (min-width: 640px)
+            {
+                body
+                {
+                    font-size: 1rem;
+                }
+            }
+
+            @media (min-width: 960px)
+            {
+                body
+                {
+                    font-size: 1.2rem;
+                }
+            }
+          
+            @media (min-width: 1100px)
+            {
+                body
+                {
+                    font-size: 1.5rem;
+                }
+            }
+
             .center
             {   
                 font-family: serif;
@@ -8,6 +37,7 @@
             
             h4.demo
             {   
+                margin-top: 20px;
                 font-family: serif;
                 text-align: center;
             }
@@ -26,17 +56,23 @@
 
            .bgimage 
             {
+               
+               margin-left: 10px;
+               margin-bottom: 10px;
+               margin-right: 10px;
+               margin-top: 10px;
+               max-width: 100%;
                height:90vh;
-               background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjuvl5IUng88qLSE_tkCaa9OvDbRzjZD3Yig&usqp=CAU');
+               background: url('https://www.sitel.com/wp-content/uploads/2020/02/healthcare-banner.jpg');
                opacity: 0.8;
-               background-size:cover;
-               position:relative;
+               background-size: cover;
+               position: relative;
             }
           
            .hero_title 
             {
-              font-size: 4.5rem;
-                color: aliceblue;
+               font-size: 4.5rem;
+               color: aliceblue;
             }
             
            .hero_desc 
@@ -74,4 +110,5 @@
             }
 
         </style>
+        
         
