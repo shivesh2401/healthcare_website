@@ -1,4 +1,34 @@
 <style>
+
+            html
+            {
+                font-size: 100%;
+            }
+
+            @media (min-width: 640px)
+            {
+                body
+                {
+                    font-size: 1rem;
+                }
+            }
+
+            @media (min-width: 960px)
+            {
+                body
+                {
+                    font-size: 1.2rem;
+                }
+            }
+          
+            @media (min-width: 1100px)
+            {
+                body
+                {
+                    font-size: 1.5rem;
+                }
+            }
+
             .myform{
                 padding: 2px;
                 border: 1px grey dotted;
@@ -35,7 +65,8 @@
             
             .imageaboutpage
             {
-                width: 60%;
+                display: block;
+                max-width: 100%;
             }
 
             .navbar-brand
@@ -62,7 +93,9 @@
             }
 
             #map 
-            {
+            {  
+               position: relative;
+               max-width: 100%;
                height: 400px;
                width: 80%;
                margin-left: 100px;
@@ -70,6 +103,7 @@
             
             .form-control
             {
+               max-width: 100%;
                width: 60%;
             }
             
