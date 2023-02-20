@@ -1,13 +1,5 @@
 <style>
-.WebContainer{
-    width: 100%;
-    height: auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
+
             html
             {
                 font-size: 100%;
@@ -35,6 +27,12 @@
                 {
                     font-size: 1.5rem;
                 }
+            }
+
+            .demoo
+            {
+                font-size: 28px;
+                font-family: sans-serif;
             }
     
             .center
@@ -76,7 +74,7 @@
                 height: 400px;
                 width: 800px;
                 margin-bottom: 20px;
-                margin-top: 50px;
+                margin-top: 80px;
             }   
 
           * {
@@ -117,6 +115,8 @@
                border: 3px solid #999999;
                z-index: 9;
                background-color: burlywood;
+               margin-top: 50px;
+               margin-left: 60px;
              }
 
            .formContainer '
