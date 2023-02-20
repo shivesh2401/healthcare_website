@@ -1,16 +1,6 @@
 <style>
 
-.WebContainer{
-    width: 100%;
-    height: auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
-
-            html
+            body
             {
                 font-size: 100%;
             }
@@ -45,11 +35,13 @@
                 font-size: 20px;
             }
             
+/*
             h4.demo
             {   
                 font-family: serif;
                 text-align: center;
             }
+*/
             
             h1.example
             {  
@@ -68,17 +60,25 @@
                 display: block;
                 max-width: 100%;
                 height: 200px;
-                width: 300px;
+                width: 350px;
                 align-content: center;
                 margin-left: 80px;
                 margin-bottom: 20px;
             }
 
+/*
             .navbar-brand
             {
                 font-size: 30px;
                 font-family: sans-serif;
                 text-shadow: 1px 1px #000000;
+            }
+*/
+
+            .demoo
+            {
+                font-size: 28px;
+                font-family: sans-serif;
             }
 
             .main
@@ -95,9 +95,9 @@
                position: relative;
                max-width: 100%;
                height: auto;
-               margin-right: 25px;
+               margin-right: 40px;
                margin-bottom: 30px;
-               margin-top: 35px;
+               margin-top: 80px;
                margin-left: 30px;
             }
 
