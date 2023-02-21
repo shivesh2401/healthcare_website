@@ -36,7 +36,11 @@ if (isset($_POST['submit'])) {
     <nav class="navbar navbar-expand-lg fixed-top navbarScroll" style="background-color: cadetblue">
         <div class="container">
            
-            <a class="navbar-brand" href="#">HELP 24*7</a>
+<!--            <a class="navbar-brand" href="#">HELP 24*7</a>-->
+           
+           <div class = "demoo">
+            <p>Dr. Suhasini Hospital</p>
+            </div>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" onclick="dropdown()">
@@ -47,7 +51,7 @@ if (isset($_POST['submit'])) {
                
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
@@ -102,10 +106,12 @@ if (isset($_POST['submit'])) {
        
         <form class="formContainer" action = "contact.php" method = "post">
          
-          <h2>Your details</h2>
+          <h2 style = "color: darkcyan; margin-left: 5px; margin-right: 5px">Dr. Suhasini Hospital</h2>
+            <hr>
+             <h4>Enter your details</h4>
               
             <div class = "form-group">
-               <label for = "name">Your Name</label>
+               <label for = "name">Name</label>
                <input type = "text" class = "form-control" id = "name" placeholder = "Your Name">
                </div>
                
@@ -117,8 +123,8 @@ if (isset($_POST['submit'])) {
                
                <div class = "form-group">
                
-               <label for = "contact no">Contact No</label>
-               <input type = "number" class = "form-control" id = "number" placeholder = "Your Number">
+               <label for = "contact no">Contact No.</label>
+               <input type = "text" class = "form-control" id = "number" placeholder = "Your Number">
                </div>
                
                <div class = "form-group">
