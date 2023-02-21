@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "sql109.ezyro.com";
+$username = "ezyro_32913168";
 $password = "";
-$dbname = "base";
+$dbname = "ezyro_32913168_suhasinii";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
