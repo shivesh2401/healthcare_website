@@ -1,6 +1,6 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "sql109.ezyro.com";
+$username = "ezyro_32913168";
 $password = "";
 
 // Create connection
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 
 // Create database
-$sql = "CREATE DATABASE base";
+$sql = "CREATE DATABASE ezyro_32913168_suhasinii";
 if ($conn->query($sql) === TRUE) {
   echo "Database created successfully";
 } else {
