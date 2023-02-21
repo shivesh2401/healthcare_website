@@ -1,6 +1,6 @@
 <?php
-$servername = "localhost";
-$username = "root";
+$servername = "sql109.ezyro.com";
+$username = "ezyro_32913168";
 $password = "";
 
 // Create connection
