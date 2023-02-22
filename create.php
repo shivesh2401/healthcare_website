@@ -1,6 +1,6 @@
 <?php
-$servername = "sql109.ezyro.com";
-$username = "ezyro_32913168";
+$servername = "sql204.epizy.com";
+$username = "epiz_33639327";
 $password = "";
 
 // Create connection
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 
 // Create database
-$sql = "CREATE DATABASE ezyro_32913168_suhasinii";
+$sql = "CREATE DATABASE epiz_33639327_suhasini12";
 if ($conn->query($sql) === TRUE) {
   echo "Database created successfully";
 } else {
