@@ -1,8 +1,8 @@
 <?php
-$servername = "sql109.ezyro.com";
-$username = "ezyro_32913168";
+$servername = "sql204.epizy.com";
+$username = "	epiz_33639327";
 $password = "";
-$dbname = "ezyro_32913168_suhasinii";
+$dbname = "epiz_33639327_suhasini12";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
