@@ -34,15 +34,7 @@
                 font-family: serif;
                 font-size: 20px;
             }
-            
-/*
-            h4.demo
-            {   
-                font-family: serif;
-                text-align: center;
-            }
-*/
-            
+                    
             h1.example
             {  
                 background-color: darkgray;
@@ -66,14 +58,108 @@
                 margin-bottom: 20px;
             }
 
-/*
-            .navbar-brand
+            .button 
             {
-                font-size: 30px;
-                font-family: sans-serif;
-                text-shadow: 1px 1px #000000;
+               display: flex;
+               justify-content: left;
             }
-*/
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #appointment-button {
+                background-color: cadetblue;
+                color: white;
+                padding: 5px 5px;
+                border-radius: 2px;
+                display: flex;
+                justify-content: left;
+                cursor: pointer;
+                border: none;
+            }
+
+           #appointment-button:hover
+            {
+                background-color: darkcyan;
+            }
+
+            .loginPopup 
+            {
+               position: relative;
+               text-align: center;
+               width: 100%;
+            }
+
+           .formPopup 
+            {
+               display: none;
+               position: fixed;
+               left: 45%;
+               top: 5%;
+               transform: translate(-50%, 5%);
+               border: 3px solid #999999;
+               z-index: 9;
+               background-color: burlywood;
+               margin-top: 50px;
+               margin-left: 60px;
+             }
+
+           .formContainer '
+             {
+               max-width: 300px;
+               padding: 20px;
+               background-color: beige;
+             }
+
+           form 
+             {
+               display: flex;
+               flex-direction: column;
+               max-width: 300px;
+             }
+
+            label 
+             {
+               margin-top: 10px;
+             }
+
+            .formContainer input[type="text"],
+            .formContainer input[type="email"],
+            .formContainer input[type="date"],
+            .formContainer input[type="time"] 
+             {
+               padding: 5px;
+               border-radius: 5px;
+               border: 1px solid #ccc;
+               margin-bottom: 10px;
+             }
+
+            .formContainer input[type="submit"] 
+             {
+               background-color: blue;
+               color: white;
+               padding: 10px;
+               border-radius: 5px;
+               border: none;
+               cursor: pointer;
+             }  
+
+             .formContainer .button {
+              padding: 12px 20px;
+              border: none;
+              background-color: #8ebf42;
+              color: #fff;
+              cursor: pointer;
+              width: 100%;
+              margin-bottom: 15px;
+              opacity: 0.8;
+      }
+
+             .formContainer .cancel 
+             {
+              background-color: #cc0000;
+             }
 
             .demoo
             {
