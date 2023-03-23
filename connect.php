@@ -1,10 +1,11 @@
-<?php
-$servername = "sql204.epizy.com";
-$username = "	epiz_33639327";
+$servername = "localhost";
+$username = "root";
 $password = "";
+$database = "contact";
+
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {
