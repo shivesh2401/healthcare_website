@@ -7,9 +7,15 @@ if (isset($_POST['submit'])) {
     $Number = $_POST['number'];
     $Problem = $_POST['comment'];
 
+    $Number = "Select * from Contact where Number = ?";
+    
+    $Number_stmt = $conn->prepare($Number);
+    $Number_stmt->bind_param("i",$Number);
+    $Number_stmt->execute();
+    
     $sql = "INSERT INTO Contact(Name,Location,Number,Problem)VALUES(?,?,?,?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sisss", $Name, $Location, $Number, $Problem);
+    $stmt->bind_param("ssis", $Name, $Location, $Number, $Problem);
     $stmt->execute();
 }
 ?>
