@@ -89,7 +89,9 @@
             .imageaboutpage
             {
                 display: block;
-                max-width: 100%;
+/*                max-width: 100%;*/
+                height: 300px;
+                width: 500px;
             }
 
             .navbar-brand
@@ -199,7 +201,9 @@
             .imageaboutpage
             {
                 display: block;
-                max-width: 100%;
+/*                max-width: 100%;*/
+                height: 300px;
+                width: 500px;
             }
 
             .navbar-brand
@@ -309,7 +313,9 @@
             .imageaboutpage
             {
                 display: block;
-                max-width: 100%;
+/*                max-width: 100%;*/
+                height: 300px;
+                width: 500px;
             }
 
             .navbar-brand
@@ -419,7 +425,9 @@
             .imageaboutpage
             {
                 display: block;
-                max-width: 100%;
+/*                max-width: 100%;*/
+                height: 300px;
+                width: 500px;
             }
 
             .navbar-brand
@@ -529,7 +537,9 @@
             .imageaboutpage
             {
                 display: block;
-                max-width: 100%;
+/*                max-width: 100%;*/
+                height: 300px;
+                width: 500px;
             }
 
             .navbar-brand
@@ -574,5 +584,6 @@
 */
             
         </style>
+        
         
         
