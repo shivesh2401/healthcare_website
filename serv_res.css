@@ -1,0 +1,38 @@
+  <style>
+html
+            {
+                font-size: 100%;
+            }    
+
+
+     @media (max-width: 980px)
+     {
+         .main
+            {
+                flex-direction: column-reverse;
+            }
+         
+            .hello
+            {
+                flex-direction: column;
+            }
+
+     }  
+
+     @media (max-width: 620px)
+     {
+         .imageaboutpage
+         {
+             max-width: auto;
+         }
+     }
+
+     @media (max-width: 890px)
+        {
+            .second
+            {
+                font-size: 1rem;
+            }
+                
+        }
+</style>
