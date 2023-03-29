@@ -1,0 +1,15 @@
+<style>
+html
+            {
+                font-size: 100%;
+            }    
+
+
+     @media (max-width: 980px)
+     {
+         .main
+            {
+                flex-direction: column-reverse;
+            }
+     }  
+</style>
