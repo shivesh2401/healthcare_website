@@ -1,0 +1,37 @@
+<style>
+            .responsive-video
+            {
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+
+            .responsive-video iframe
+            {
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
+
+        @media (max-width: 980px) 
+            {
+            .main
+            {
+                flex-direction: column-reverse;
+            }
+    
+            .right
+            {
+/*                margin-top: 30px;*/
+                margin-right: 90px;
+            }
+
+            .flex-notrev
+            {
+                flex-direction: column;
+            }
+            }
+</style>
