@@ -32,6 +32,7 @@ if (isset($_POST['submit'])) {
         </title>
         
         <link REL = "STYLESHEET" TYPE = "text/css" HREF = "contact.css">
+        <link REL = "STYLESHEET" TYPE = "text/css" HREF = "cont_res.css">
         <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   
@@ -89,18 +90,60 @@ if (isset($_POST['submit'])) {
          
          <center>
         <div>
-            <img src="https://naomihouse.info/wp-content/uploads/2019/08/contact_us_image_qbluir.png" class = "image" alt="">
+            <img src="https://content3.jdmagicbox.com/comp/bangalore/b4/080pxx80.xx80.170125001012.c8b4/catalogue/dr-suhasini-hospital-kengeri-satelite-town-bangalore-gynaecologist-and-obstetrician-doctors-ara8k.jpg" class = "image" alt="">
         </div>
          </center>
                 
                 <div class = "enjoy">
                     <p>For any help feel free to contact us..... </br>
-            </br>          Join Us!!!
+            </br>        
+                   <div class = "come"> Join Us!!! </div> 
                     </p>   
                 </div>
+                
+                <div class = "help">
+                  <br>
+                   <div class = "now">
+                       <p>Help and Support</p>
+                   </div>
+                   <br>
+                        <ol class = "design">
+                            <li>Helping patients find the right solution</li>
+                            <li>Humanizing the customer service team</li>
+                            <li>Adapting to the situation</li>
+                        </ol>
+                        <br>
+                </div>
+                <br><br>
+                 <div class = "help">
+                  <br>
+                   <div class = "now">
+                       <p>Staffing</p>
+                   </div>
+                   <br>
+                        <ol class = "design">
+                            <li>Nurse staffing is constantly provided for health care facilities.</li>
+                            <li>Staffing management is our utmost priority</li>
+                            <li>Contact us for more details about staff</li>
+                        </ol>
+                        <br>
+                </div>
+                
+                 <div class = "main flext-notrev1">
+    
+     <div class = "left section part1">
+  <p style = "text-align: center; font-size: 18px"><b>A HOSPITAL IS A NO PLACE TO BE SICK</b></p>
+     </div>
+     
+     <div class = "right section">
+         <img class = "img" src="https://media.designrush.com/articles/1403/conversions/_1530667899_390_yEZPsIaoTI3ZNDdB-croppedUundb-jpg-details.jpg" alt="img"/>
+     </div>
+        </div>
+                
+                <br><br>
             
-      <h2>Contact us</h2>
-    <p style = "font-size: 20px">Click on the "Open" button to open the contact form</p>
+      <h2 style = "margin-left: 10px">Contact us</h2>
+    <p style = "font-size: 20px; margin-left: 10px">Click on the "Open" button to open the contact form</p>
     
     <div class="openBtn">
       <button class="openButton" onclick="openForm()"><strong>Open</strong></button>
@@ -110,7 +153,7 @@ if (isset($_POST['submit'])) {
      
       <div class="formPopup" id="popupForm">
        
-        <form class="formContainer" action = "contact.php" method = "post">
+        <form class="formContainer" style = "margin-left: 5px; margin-right: 5px">
          
           <h2 style = "color: darkcyan; margin-left: 5px; margin-right: 5px">Dr. Suhasini Hospital</h2>
             <hr>
@@ -149,6 +192,23 @@ if (isset($_POST['submit'])) {
         
         <p style = "text-align: center; font-size: 20px" >Thank you for reaching us.....</br>
                        Always there for you!!</p>
+                       
+                       <!-- Whatsapp Button -->
+        <script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+91-9886028680", // WhatsApp number
+            call_to_action: "Whatsapp us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+         </script>
+<!-- /Whatsapp Button -->
         
         </div> 
         
@@ -157,7 +217,7 @@ if (isset($_POST['submit'])) {
        <footer class="page-footer font-small blue" style = "background-color: cadetblue; text-shadow: 1px 1px #000000; font-family: sans-serif; font-size: 20px" >
 
   
-       <div class="footer-copyright text-center py-3">Copyright @ 2022
+       <div class="footer-copyright text-center py-3">Copyright @ Dr. Suhasini Hospital
        </div>
 
       </footer>
@@ -168,4 +228,4 @@ if (isset($_POST['submit'])) {
     </div>     <!--End #Container-->
     
 </body>
-</html>
+</html> 
