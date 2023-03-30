@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
            
 <!--            <a class="navbar-brand" href="#">HELP 24*7</a>-->
            
-           <div class = "demoo">
+           <div class = "demoo" style = "font-size: 28px">
             <p>Dr. Suhasini Hospital</p>
             </div>
             
